@@ -16,10 +16,11 @@
                display: flex;
                justify-content: space-between;
                align-items: center;
-               background-color: #f1f1f1;
+               background-color: #413e3e;
                padding: 10px 20px;
                font-size: 24px;
                font-weight: bold;
+               color: #fff;
 
           }
 
@@ -41,9 +42,20 @@
           .menubar ul li:hover {
                color: blue;
           }
+
           .menubar ul li a {
                text-decoration: none;
                color: inherit;
+          }
+
+          .first {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               height: 100vh;
+               text-align: center;
+               background-color: #dfdddd;
           }
      </style>
 </head>
@@ -64,6 +76,12 @@
           </div>
           <div>login</div>
      </header>
+     <main>
+          <section class="first">
+               <h1>Welcome to my first project</h1>
+               <p>This is a simple HTML page with a header and navigation menu.</p>
+          </section>
+     </main>
 </body>
 
 </html>
