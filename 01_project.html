@@ -57,6 +57,38 @@
                text-align: center;
                background-color: #dfdddd;
           }
+
+          footer {
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               background-color: #413e3e;
+               padding: 10px 20px;
+               font-size: 18px;
+               color: #fff;
+               height: 40vh;
+          }
+
+          #footer_menu {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+
+          #footer_menu ul {
+               list-style: none;
+               display: flex;
+               flex-direction: column;
+          }
+
+          #footer_menu ul li {
+               margin: 5 10px;
+               cursor: pointer;
+          }
+          #footer_menu ul li a {
+               text-decoration: none;
+               color: inherit;
+          }
      </style>
 </head>
 
@@ -82,6 +114,20 @@
                <p>This is a simple HTML page with a header and navigation menu.</p>
           </section>
      </main>
+     <footer>
+          <div>first </div>
+          <div id="footer_menu">
+               <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                    <li>project</li>
+               </ul>
+          </div>
+          <div>third </div>
+          <div>fourth </div>
+     </footer>
 </body>
 
 </html>
